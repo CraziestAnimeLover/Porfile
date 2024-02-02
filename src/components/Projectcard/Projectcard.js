@@ -30,7 +30,7 @@ const Projectcard = () => {
             <div className='card'>
                 <h3>Buisness</h3>
                 <span className='bar'></span>
-                <p className='btc'>$ 500</p>
+                <p className='btc'>$ 900</p>
                 <p className='btc'>-8 Days-</p>
                 <p className='btc'>-8 Pages-</p>
                 <p className='btc'>-Featured-</p>

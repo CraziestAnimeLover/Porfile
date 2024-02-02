@@ -1,0 +1,46 @@
+.pricing{
+    width: 100%;
+    padding: 6rem 1rem;
+    background: #0000;
+}
+
+.card-container{
+    max-width: 1140px;
+    margin: 12px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 40px;
+    height: 100%;
+}
+.card{
+    border: 1px solid #eee ;
+    padding: 1.8rem;
+    text-align: center;
+    color: aliceblue;
+    height: 100%;
+}
+
+.btn{
+    padding: 3px 8px;
+    font-size: 1.1rem;
+    text-transform:uppercase;
+    background:transparent;
+    border: 1px solid rgba(234, 171, 55, 0.959);
+    font-weight: 3000;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .card:hover{
+    background-color: #eb4f4f80;
+  }
+@media screen and (max-width:740px) {
+    .card-container{
+        max-width: 90%;
+        margin: auto;
+        grid-template-columns:1fr;
+        
+    }
+    
+}

@@ -32,7 +32,7 @@ const Projectcard = () => {
                 <span className='bar'></span>
                 <p className='btc'>$ 900</p>
                 <p className='btc'>-8 Days-</p>
-                <p className='btc'>-8 Pages-</p>
+                <p className='btc'>-56 Pages-</p>
                 <p className='btc'>-Featured-</p>
                 <p className='btc'>-Responsive Design-</p>
                 <NavLink to='/contact' className='btn'>PURCHASE NOW</NavLink>
